@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" onclick="jump()">
+<head>
+    <meta charset="UTF-8">
+    <title>yanggg</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <select name=pco onChange="document.bgColor=(this.form.pco.value)">
+            <option value=Hitam>black</option>
+            <option vaule=white>white</option>
+            <option vaule=hard>blue</option>
+        </select>
+        <input type="button" value="Colour" onclick="document.bgColor=(this.form.color.value)"> 
+
+   
+   
+    <div class="game">
+        <div id="character"></div>
+        <div id="block"></div>
+    </div>
+    <p>SKORIKAMM: <span id="scoreSpan"></span></p>
+</body>
+<script src="script.js"></script>
+</html>
